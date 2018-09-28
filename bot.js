@@ -19,4 +19,10 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'owners') {
+    msg.reply('**__Rigby#3943__** **YT_RoDeniz#6527____**');
+  }
+});
+
 client.login(process.env.BOT_TOKEN);
