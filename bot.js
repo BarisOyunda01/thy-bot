@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('**__Aleyküm Selam..__** **__Sunucuya Hoşgeldin__**');
+    msg.reply('**__Aleyküm Selam..__** **__Hoşgeldin__**');
   }
 });
 
