@@ -1,7 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client()
+const ayarlar = require('./ayarlar.json')
 
-var prefix = '!'
+
+var prefix = ayarlar.prefix;
+
 
 client.on('ready', () => {
   console.log(`Bot Artık online ${client.user.tag}!`);
