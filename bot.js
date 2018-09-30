@@ -25,16 +25,7 @@ client.on('message', msg => {
   }
 });
 
- if (message.content === prefix + 'reboot') {
-	  
-	  if (message.author.id === "319438046485413898") {
-		  message.channel.send('[BOT]Yenden başlatılıyor...').then(msg => {
-			  console.log('yeniden başlatılıyor')
-			  process.exit(0);
-		  });
-	  } else 
-		  message.channel.send('Maalesef bu komutu kullanamazsın. Benim yapımcım değilsin!')
-  }
+
   
 
 client.login(process.env.BOT_TOKEN);
