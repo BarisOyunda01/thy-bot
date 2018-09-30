@@ -25,9 +25,5 @@ client.on('message', msg => {
   }
 });
 
-  if (message.content === prefix + 'avatar') {  
-	message.channel.send(message.author.avatarURL);
-  }
-
 
 client.login(process.env.BOT_TOKEN);
