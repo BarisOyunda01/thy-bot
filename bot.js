@@ -1,9 +1,8 @@
 const Discord = require('discord.js');
-const client = new Discord.Client()
-const ayarlar = require('./ayarlar.json')
+const client = new Discord.Client
 
 
-var prefix = ayarlar.prefix;
+var prefix = 't!'
 
 
 client.on('ready', () => {
